@@ -34,7 +34,7 @@ fi
 
 # set up your bioinf conda environemnt
 source ~/.bashrc
-conda activate bioinf
+conda activate binfr
 
 
 # Now, get the first file index and the last file index

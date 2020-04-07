@@ -34,13 +34,14 @@ rclone copy --tpslimit 10 --fast-list -P --drive-shared-with-me remote:CSU-con-g
 # and rename it to "genome" (or make a Symbolic link).
 
 cd ~/chr-32-bioinformatics-kimhoke/
-ln -s /home/kimhoke/scratch/chinook-play/chinook-genome-idx genome
+ln -s /scratch/summit/kimhoke\@colostate.edu/chinook-play/pre-indexed-chinook-genome genome
+
 
 # 4. Move (or make a symbolic link), the directory fastqs-chr32-160-chinook-8-lanes containing
 # all the gzipped FASTQ files into a directory named "fastqs" in this repository directory.
 
 # Here is what I did (making a symbolic link)
-ln -s  /home/kimhoke/scratch/course_stuff/fastqs-chr32-160-chinook-8-lanes fastqs
+ln -s  /scratch/summit/kimhoke\@colostate.edu/chinook-play/fastqs-chr32-160-chinook-8-lanes fastqs
 
 # You will have to modify this to reflect the proper location of the
 # directory on your system.
